@@ -11,28 +11,14 @@ public class animal {
         this.idade = idade;
     }
 
-    public String getNome() {
-        return this.nome;
-    }
+    // Getters
+    public String getNome() { return nome; }
+    public String getRaca() { return raca; }
+    public int getIdade() { return idade; }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getRaca() {
-        return this.raca;
-    }
-
-    public void setRaca(String raca) {
-        this.raca = raca;
-    }
-
-    public int getIdade() {
-        return this.idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
+    // Setters
+    public void setNome(String nome) { this.nome = nome; }
+    public void setRaca(String raca) { this.raca = raca; }
+    public void setIdade(int idade) { this.idade = idade; }
 
 }
